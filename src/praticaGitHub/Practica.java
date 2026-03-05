@@ -18,7 +18,9 @@ public class Practica {
        // ponemos la funcion que busca los suma cuya suma de digitos da el objetivo
        // con un limite integrado
        int[] resultado= buscarPorSumaDigitos(limite,objetivo);
-       
+    
+        System.out.println("Revision con el profe.");
+        
        //imprimimos el array
         System.out.println("Limite " + limite + " Objetivo " + objetivo + ": " + Arrays.toString(resultado));
     }//end main
